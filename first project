@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css"
+    
+<head>
+    <title>Learn to code</title>
+</head>
+<body>
+    <h1 id="title">Learn to code </h1>
+    <p id="description">What code do you want to learn? </p>
+    <form id="survey-form">
+         <label id="name-label">Your name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label id="email-label">Your Email:</label>
+        <input type="email" id="email" placeholder="Your email" required>
+        <label id="number-label">Your number:</label>
+        <input id="number" type="number" min="1" max="5" placeholder="Your Number">
+        
+<select id="dropdown">
+    <option>html</option>
+    <option>css</option>
+    <option>javascript</option>
+    <option>python</option>
+</select>
+<fieldset id="experience">
+<input type="radio" id="beginner" value="beginner" name="experience">
+<label>Beginner</label>
+<input type="radio" id="experienced" value="experienced" name="experience"><label>Experienced</label></fieldset>
+<fieldset id="whatfor">
+    <input type="radio" id="forfun" value="forfun" name="whatfor">
+    <label id="forfun">For fun</label>
+    <input type="radio" id="professionaluse" value="professionaluse" name="whatfor"><label>For professional use</label>
+    </fielset>
+    
+    <fielset>
+    <input type="checkbox" value="x">
+    <input type="checkbox" value="y">
+    <textarea>suggestion...</textarea>
+    <input type="submit" id="submit" value="submit">
+</body>
+</html>
