@@ -1,0 +1,84 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html> 
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Oh dear <i>Motha</i> Theresa</h1>
+    <figure id="img-div">
+    <img id="image" src="https://mtces.org/sites/default/files/image-library/MT%20image.jpg" alt="Mother Theresa smiling looking straight forward.">
+    <figcaption id="img-caption">
+          Mother Theresa smiling with her heart.
+        </figcaption>
+    </figure>
+    <section id="tribute-info">
+        <h3 id="headline">Here's a time line of Mother Theresa:</h3>
+        <ul>
+          <li><strong>1910</strong> - Born in skopje, macedonia</li>
+          <li>
+            <strong>1922</strong> First call to religious life.
+          </li>
+          <li>
+            <strong>1928</strong> - Became a roman catholic nun (sister theresa)
+          </li>
+          <li>
+            <strong>1929</strong> - Becomes a teacher after moving to kolkata.
+          </li>
+          <li>
+            <strong>1937</strong> - Takes final vows as a nun, than become Mother Theresa.
+          </li>
+          <li>
+            <strong>1946</strong> - Call to serve the poors.
+          </li>
+          <li>
+            <strong>1950</strong> - Founded missionnaries of charity.
+          </li>
+          <li>
+            <strong>1957</strong> - Begins to works with lepers.
+          </li>
+          <li>
+            <strong>1971</strong> - receves pope peace prize.
+          </li>
+          <li>
+            <strong>1979</strong> - Win peace prize nobel.
+          </li>
+          <li>
+            <strong>1980</strong> - Awarded with the bharat ratna.
+          </li>
+          <li><strong>1982</strong> - rescues 37 disabled childrens </li>
+          <li>
+            <strong>1985</strong> - Receives medal of freedom (highest US honor)
+          </li>
+          <li>
+            <strong>1997</strong> - She passed away.
+          </li>
+
+        </ul>
+ 
+        <h3>
+          If you have time, you should read more about this incredible human
+          being on his
+          <a id="tribute-link" href="https://en.wikipedia.org/wiki/Mother_Teresa" target="_blank">Wikipedia entry</a>.
+        </h3>
+      </section>
+
+    </main>
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+** end of undefined **
+
